@@ -1,4 +1,5 @@
 "use strict"
+
 class LocalStorage {
     constructor() { 
     }
@@ -10,7 +11,7 @@ class LocalStorage {
         }
     }
     addValue(key,value) {
-        localStorage[key] = value;  
+        localStorage[key] = value;          
     }
     getValue(key) {
         if (localStorage[key]) {

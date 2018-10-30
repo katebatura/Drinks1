@@ -4,68 +4,68 @@
 	  <meta charset="utf-8"> 
 	  <title></title>
 		<style type="text/css">
-		.first {
-			width: 300px;
-			float: left;
-		}
-		.second {
-			width: 300px;
-			float: left;
-		}
-		.drink {
-			display: inline-block;
-			margin: 15px;
-			width: 290px;
-			height: 45px;
-			background-color: indigo;
-			color: white;
-			text-align: center;
-			font-size: 15px;
-			line-height: 45px;
-			font-family: sans-serif;
-			border: none;
-			border-radius: 3px;
-			box-shadow: 0 0 20px inset black;
-			outline: none;
-		}		
-		.dish {
-			display: inline-block;
-			margin: 15px;
-			width: 290px;
-			height: 45px;
-			background-color:crimson;
-			color: white;
-			text-align: center;
-			font-size: 15px;
-			line-height: 45px;
-			font-family: sans-serif;
-			border: none;
-			border-radius: 3px;
-			box-shadow: 0 0 20px inset black;
-			outline: none;
-		}
-		input:hover {
-			text-shadow: 0 0 10px white;
-		}
-		input:active {
-			box-shadow: 0 0 20px 3px inset black;
-			text-shadow: 0 0 30px black;
-		}
+			.first {
+				width: 300px;
+				float: left;
+			}
+			.second {
+				width: 300px;
+				float: left;
+			}
+			.drink {
+				display: inline-block;
+				margin: 15px;
+				width: 290px;
+				height: 45px;
+				background-color: indigo;
+				color: white;
+				text-align: center;
+				font-size: 15px;
+				line-height: 45px;
+				font-family: sans-serif;
+				border: none;
+				border-radius: 3px;
+				box-shadow: 0 0 20px inset black;
+				outline: none;
+			}		
+			.dish {
+				display: inline-block;
+				margin: 15px;
+				width: 290px;
+				height: 45px;
+				background-color:crimson;
+				color: white;
+				text-align: center;
+				font-size: 15px;
+				line-height: 45px;
+				font-family: sans-serif;
+				border: none;
+				border-radius: 3px;
+				box-shadow: 0 0 20px inset black;
+				outline: none;
+			}
+			input:hover {
+				text-shadow: 0 0 10px white;
+			}
+			input:active {
+				box-shadow: 0 0 20px 3px inset black;
+				text-shadow: 0 0 30px black;
+			}
 
-		.drink:hover {
-			background-color: plum;
-		}
-		.drink:active {
-			background-color: violet;
-			color: lightgray;
-		}
-		.dish:hover {
-			background-color:maroon;
-		}
-		.dish:active {
-			background-color:salmon;
-			color: black;
-		}
+			.drink:hover {
+				background-color: plum;
+			}
+			.drink:active {
+				background-color: violet;
+				color: lightgray;
+			}
+			.dish:hover {
+				background-color:maroon;
+			}
+			.dish:active {
+				background-color:salmon;
+				color: black;
+			}
 
 	  </style>
 	</head>
@@ -83,7 +83,11 @@
 				<input class="dish" type="button" value="перечень всех блюд" onclick="listDishes()">
 		</div>
 
+		
+		<script src="http://fe.it-academy.by/JQ/jquery.js"></script>
+
 		<script type="text/javascript" src="LocalStorage.js"></script>
+		<script type="text/javascript" src="AJAXStorage.js"></script>
 		<script type="text/javascript" src="drinkStorage.js"></script>
 		<script type="text/javascript" src="dishStorage.js"></script>
 	</body>
